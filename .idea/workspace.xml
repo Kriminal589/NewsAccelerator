@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="957fe3b1-ebd2-487d-88cd-b329b158eb25" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/DAO/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/DAO/CommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/DAO/PostDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/DAO/UsersDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/commons/DBInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/commons/InitializationDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/services/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/services/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/services/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/news/services/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/V1__create_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/V2__hibernate_sequence.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/news/WebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/news/WebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/news/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/greeting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsAccelerator" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsAccelerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NewsAccelerator" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ID48yFxiK1NAtTycPLKVh497BC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelOrder2&quot;: &quot;2&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth2&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/AndreyNovikov/Desktop/Курсовые/NewsAccelerator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0bd3341a5f46f9ebb0685b8fa9c94ee8&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.WebApplication">
+    <configuration name="NewsAccelerator [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NewsAccelerator [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #17" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="17" requestIdentifier="#17" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="NewsAccelerator.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.news.WebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.news.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Gradle.NewsAccelerator [build]" />
+        <item itemvalue="Gradle.NewsAccelerator [clean]" />
+        <item itemvalue="HTTP Request.generated-requests | #18" />
+        <item itemvalue="HTTP Request.generated-requests | #17" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="957fe3b1-ebd2-487d-88cd-b329b158eb25" name="Changes" comment="" />
+      <created>1669702668352</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669702668352</updated>
+      <workItem from="1669702673678" duration="2236000" />
+      <workItem from="1669874964288" duration="30000" />
+      <workItem from="1669875023060" duration="1671000" />
+      <workItem from="1670334082785" duration="5253000" />
+      <workItem from="1670419202932" duration="9266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
