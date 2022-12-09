@@ -1,10 +1,14 @@
 package com.news.controllers;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.news.WebApplication;
+import com.news.models.Users;
 import com.news.services.UsersService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Optional;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -18,7 +22,7 @@ public class UserController {
     }
 
     @PostMapping
-    public String add(@RequestParam String email, @RequestParam String name, @RequestParam String password) {
+    public @ResponseBody String add(@RequestParam String email, @RequestParam String name, @RequestParam String password) {
         Pattern regexMail = Pattern.compile("\\b[\\w.%-]+@[-.\\w]+\\.[a-z]{2,4}\\b");
         Pattern regexName = Pattern.compile("^[a-zA-Z]*$");
 
@@ -33,12 +37,12 @@ public class UserController {
     }
 
     @GetMapping
-    public String get(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(usersService.get(id));
+    public @ResponseBody String get(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(usersService.get(id).get());
     }
 
     @DeleteMapping
-    public String delete(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(usersService.delete(id));
+    public @ResponseBody String delete(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(usersService.delete(id).get());
     }
 }

@@ -15,47 +15,47 @@ public class CommentController {
     }
 
     @GetMapping("/post")
-    public String getAllByIdPost(@RequestParam Long idPost) {
+    public @ResponseBody String getAllByIdPost(@RequestParam Long idPost) {
         return WebApplication.GSON.toJson(commentService.getAllByIdPost(idPost));
     }
 
     @GetMapping("/getAllByAuthor")
-    public String getAllByAuthor(@RequestParam Long idAuthor) {
+    public @ResponseBody String getAllByAuthor(@RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(commentService.getAllByAuthor(idAuthor));
     }
 
     @GetMapping("/get")
-    public String get(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(commentService.get(id));
+    public @ResponseBody String get(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(commentService.get(id).get());
     }
 
     @PostMapping("/add")
-    public String add(@RequestParam Long idPost, @RequestParam String commentText, @RequestParam Long idAuthor) {
+    public @ResponseBody String add(@RequestParam Long idPost, @RequestParam String commentText, @RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(commentService.add(idPost, commentText, idAuthor));
     }
 
     @GetMapping("/addLike")
-    public String add(@RequestParam Long id) {
+    public @ResponseBody String add(@RequestParam Long id) {
         return WebApplication.GSON.toJson(commentService.addLike(id));
     }
 
     @GetMapping("/removeLike")
-    public String removeLike(@RequestParam Long id) {
+    public @ResponseBody String removeLike(@RequestParam Long id) {
         return WebApplication.GSON.toJson(commentService.removeLike(id));
     }
 
     @PostMapping("/rewrite")
-    public String rewrite(@RequestParam String text, @RequestParam Long id, @RequestParam Long idAuthor) {
+    public @ResponseBody String rewrite(@RequestParam String text, @RequestParam Long id, @RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(commentService.rewrite(text, id, idAuthor));
     }
 
     @DeleteMapping("/delete")
-    public String delete(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(commentService.delete(id));
+    public @ResponseBody String delete(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(commentService.delete(id).get());
     }
 
     @DeleteMapping("/deleteAll")
-    public String deleteAll(@RequestParam Long idPost) {
+    public @ResponseBody String deleteAll(@RequestParam Long idPost) {
         return WebApplication.GSON.toJson(commentService.deleteAll(idPost));
     }
 }

@@ -7,10 +7,13 @@
     <list default="true" id="957fe3b1-ebd2-487d-88cd-b329b158eb25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/DAO/CommentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/DAO/CommentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/models/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/models/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/services/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/news/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/news/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/news/services/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/news/services/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/controllers/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/controllers/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/controllers/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/news/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/news/services/UsersService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +205,8 @@
       <workItem from="1670419202932" duration="9266000" />
       <workItem from="1670429040544" duration="35000" />
       <workItem from="1670568443894" duration="86000" />
-      <workItem from="1670586840275" duration="390000" />
+      <workItem from="1670586840275" duration="557000" />
+      <workItem from="1670591156357" duration="1603000" />
     </task>
     <servers />
   </component>

@@ -17,37 +17,37 @@ public class PostController {
     }
 
     @PostMapping("/add")
-    public String add(@RequestParam String text, @RequestParam Long idAuthor) {
+    public @ResponseBody String add(@RequestParam String text, @RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(postService.add(text, idAuthor));
     }
 
     @GetMapping("/get")
-    public String get(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(postService.get(id));
+    public @ResponseBody String get(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(postService.get(id).get());
     }
 
     @GetMapping("/getAllByAuthor")
-    public String getAllByAuthor(@RequestParam Long idAuthor) {
+    public @ResponseBody String getAllByAuthor(@RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(postService.getAllByAuthor(idAuthor));
     }
 
     @GetMapping("/addLike")
-    public String addLike(@RequestParam Long id) {
+    public @ResponseBody String addLike(@RequestParam Long id) {
         return WebApplication.GSON.toJson(postService.addLike(id));
     }
 
     @GetMapping("/removeLike")
-    public String removeLike(@RequestParam Long id) {
+    public @ResponseBody String removeLike(@RequestParam Long id) {
         return WebApplication.GSON.toJson(postService.removeLike(id));
     }
 
     @PostMapping("/rewrite")
-    public String rewrite(@RequestParam String text,@RequestParam Long id,@RequestParam Long idAuthor) {
+    public @ResponseBody String rewrite(@RequestParam String text,@RequestParam Long id,@RequestParam Long idAuthor) {
         return WebApplication.GSON.toJson(postService.rewrite(text, id, idAuthor));
     }
 
     @DeleteMapping("/delete")
-    public String delete(@RequestParam Long id) {
-        return WebApplication.GSON.toJson(postService.delete(id));
+    public @ResponseBody String delete(@RequestParam Long id) {
+        return WebApplication.GSON.toJson(postService.delete(id).get());
     }
 }

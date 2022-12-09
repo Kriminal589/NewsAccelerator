@@ -1,6 +1,7 @@
 package com.news.services;
 
 import com.news.DAO.UsersDAO;
+import com.news.WebApplication;
 import com.news.models.Users;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Service;
