@@ -22,7 +22,7 @@ public class CommentService {
     }
 
     public Iterable<Comment> getAllByIdPost(Long id_post) {
-        return commentDAO.findAllById_post(id_post);
+        return commentDAO.findAllByIdPost(id_post);
     }
 
     public Optional<Comment> get(Long id) {
@@ -112,7 +112,7 @@ public class CommentService {
     }
 
     public boolean deleteAll(Long idPost) {
-        return commentDAO.deleteAllById_post(idPost);
+        return commentDAO.deleteAllByIdPost(idPost);
     }
 
     private @NotNull Comment nullComment() {

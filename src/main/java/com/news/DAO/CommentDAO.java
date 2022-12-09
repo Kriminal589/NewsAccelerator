@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CommentDAO extends CrudRepository<Comment, Long> {
-    Iterable<Comment> findAllById_post(Long id_post);
-    boolean deleteAllById_post(Long id_post);
+    Iterable<Comment> findAllByIdPost(Long id_post);
+    boolean deleteAllByIdPost(Long id_post);
     Iterable<Comment> getAllByAuthor(Long idAuthor);
 }

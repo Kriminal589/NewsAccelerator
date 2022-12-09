@@ -7,7 +7,7 @@ public class Comment {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    private Long id_post;
+    private Long idPost;
     @Column(columnDefinition = "TEXT")
     private String comment_text;
     private Long author;
@@ -30,7 +30,7 @@ public class Comment {
     }
 
     public Long getId_post() {
-        return id_post;
+        return idPost;
     }
 
     public void setText(String text) {
@@ -42,7 +42,7 @@ public class Comment {
     }
 
     public void setId_post(Long id_post) {
-        this.id_post = id_post;
+        this.idPost = id_post;
     }
 
     public void setAuthor(Long author) {
