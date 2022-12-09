@@ -117,8 +117,8 @@ public class CommentService {
 
     public boolean deleteAll(Long idPost) {
         try (Connection connection = get();
-             Statement statement = connection.createStatement();
-             ResultSet resultSet = statement.executeQuery("DELETE FROM comment WHERE id_post = " + idPost)){
+             Statement statement = connection.createStatement()){
+            int rows = statement.executeUpdate("DELETE FROM comment WHERE id_post = " + idPost);
             return true;
         } catch (SQLException e) {
             throw new RuntimeException(e);
